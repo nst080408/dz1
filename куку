@@ -1,0 +1,48 @@
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        Console.WriteLine("Решение уровнений");
+
+        //задание 1
+        double perem1 = 2;
+        double bukva1 = 3;
+        double clovo1 = 4;
+        double xhtoto1 = 1;
+
+        double chast_slovo1 = perem1 * Math.Abs(Math.Pow(xhtoto1, 3) - bukva1); double chast_del1 = Math.Sqrt(Math.Pow(xhtoto1, 2) + clovo1);
+        double popitka1 = chast_slovo1 / chast_del1; double popitka2 = (3.0 / 4.0) * Math.Pow(Math.Sin(xhtoto1), 2);
+        double y1 = popitka1 + popitka2;
+
+        Console.WriteLine($"Решение первого задания : y = {y1}");
+
+
+
+        // задание 2
+
+        double perem2 = 3;
+        double bukva2 = 4;
+        double clovo2 = 1;
+        double xhtoto2 = 2;
+
+        double y2 = (3.0 / 2.0) * perem2 * Math.Sqrt(Math.Abs(x2)) + bukva2 * Math.Log(Math.Abs(Math.Pow(xhtoto2, 2) - 1) + 1) + clovo2 * Math.Cos(xhtoto2);
+
+        Console.WriteLine($"Решение задания два: y = {y2}");
+
+
+        //задание 3
+
+        double perem3 = 1;
+        double bukva3 = 2;
+        double clovo3 = 3;
+        double xhtoto3 = -1;
+
+        double num3 = perem3 * Math.Pow(xhtoto3, 2) + (2.0 / 3.0) * bukva3 * Math.Abs(xhtoto3); double den3 = clovo3 + Math.Sqrt(Math.Pow(xhtoto3, 4) + 1);
+        double y3 = num3 / den3;
+
+        Console.WriteLine($"решение задания: y = {y3}");
+    }
+}
+
